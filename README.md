@@ -12,6 +12,8 @@ For example x^2+1 is conjectured to be prime infinitely often, but nobody has a 
 <br>
 I did this problem in a few stages.
 
+I just want to emphasize that I let A={f(n) : n in Z and f(n) is prime}, which I refer to several times below.
+
 First I created a list of natural numbers up to an arbitrary value(101 in this case) then I applied the given quadratic function, with an arbitrary a and b,
 on our list of natural numbers using a list comprehension. I named the list f_of_n.
 
@@ -43,12 +45,23 @@ for p in f_of_n:
 [2, 5, 17, 37, 101, 197, 257, 401, 577, 677, 1297, 1601, 2917, 3137,
 4357, 5477, 7057, 8101, 8837]
 <br>
-Looking at this list above (what we defined to be set A in the problem in bold), I would just like to note that for here on out I make the 
-following assumption that for any set A that I find to contain more than 1 element, I'm going assume that it goes on infinitely, 
-even if very slowly. There's no way to know, but I think it's a reasonable assumption and the threshold is going to be
-somewhat arbitrary anyways.
+
+So the list appears to go on forever. However I cannot say for sure. When I tested different values for a and b, some lists
+had 0 elements, some had 1 element , and the others had more than 1. I'm going to make the assumption for here on out that
+any list containing more than 1 element is infinite just for arguments sake.
 
 <br>
+
+I then created a function is_infinite(a,b). It basically takes integers a and b corresponding
+to the a and b in our quadratic polynomial. It returns whether or not the corresponding set A (the set of
+primes in question) is infinite. True for infinite and False if not.
+
+<br>
+
+I then plotted a graph with a on the x-axis and b on the y-axis of when set A was infinite. It basically tells you for 
+what values of a and b set A is infinite.
+
+I then tried to find a pattern to see if we could say anything about set A
 
 My conjecture:
 Let f(x)=x^2 + a*x + b be a quadratic polynomial with integer coefficients. <br>
