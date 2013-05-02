@@ -10,6 +10,8 @@ For example x^2+1 is conjectured to be prime infinitely often, but nobody has a 
 </b></p>
 
 <br>
+(First I'd like to thank the reader for bearing with me while I learn html)
+
 I did this problem in a few stages.
 
 I just want to emphasize that I let A={f(n) : n in Z and f(n) is prime}, which I refer to several times below.
