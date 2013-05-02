@@ -67,11 +67,16 @@ The plot with a on the x-axis and b on the y-axis:
 
 <img src=https://dl.dropboxusercontent.com/u/66800298/Plot.png alt="some_text">
 
-My conjecture:
+<br>
+
+I noticed that when both a and b are odd then A is infinite.
+<br>
+
+<b>My conjecture:</b><br>
 Let f(x)=x^2 + a*x + b be a quadratic polynomial with integer coefficients. <br>
 Also let A = {f(n) : n in Z and f(n)}
 
-I make the conjecture that when both a and b are odd , then the set is infinite.
+I make the conjecture that when both a and b are odd , then set A is infinite.
 
 
 
