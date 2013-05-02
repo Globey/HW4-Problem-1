@@ -61,7 +61,11 @@ primes in question) is infinite. True for infinite and False if not.
 I then plotted a graph with a on the x-axis and b on the y-axis of when set A was infinite. It basically tells you for 
 what values of a and b set A is infinite.
 
-I then tried to find a pattern to see if we could say anything about set A
+I then tried to find a pattern to see if we could say anything about set A.
+
+The plot with a on the x-axis and b on the y-axis:
+
+<img src=https://dl.dropboxusercontent.com/u/66800298/Plot.png alt="some_text">
 
 My conjecture:
 Let f(x)=x^2 + a*x + b be a quadratic polynomial with integer coefficients. <br>
